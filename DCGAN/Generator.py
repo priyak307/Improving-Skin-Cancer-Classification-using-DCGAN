@@ -29,7 +29,7 @@ def generate_display_save_images(num_images=10, save_path='/content/drive/MyDriv
         plt.imshow(generated_images[i])
         plt.axis('on')
         plt.title(f"Generated Image {i+1}\n(Malignant)")
-        plt.imsave(os.path.join(save_path, f"generated_image_{i+1}.png"), generated_images[i])
+        plt.imsave(os.path.join(save_path, f"generated_image_{i+1}.jpg"), generated_images[i])
 
     plt.tight_layout()
     plt.show()
