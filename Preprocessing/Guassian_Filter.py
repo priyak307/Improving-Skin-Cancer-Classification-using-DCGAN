@@ -1,4 +1,4 @@
-f# Directory containing RGB images
+# Directory containing RGB images
 input_dir = r"/content/drive/MyDrive/rgb_data/test/malignant"
 
 # Directory to save images with Gaussian filter applied
